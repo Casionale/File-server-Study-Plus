@@ -1,0 +1,17 @@
+﻿<Window x:Class="File_server_Study__.FormFIrstTime"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:File_server_Study__"
+        mc:Ignorable="d"
+        Title="Введите пароль доступа к файлам" Height="269.594" Width="416.892">
+    <Canvas Margin="0,0,13.108,17.406">
+        <Button Content="Дальше" Canvas.Left="108" Canvas.Top="179" Width="161" Click="Button_Click"/>
+        <PasswordBox x:Name="tbPassword" Canvas.Left="108" Canvas.Top="143" Width="161"/>
+        <Label Content="Дратути!" Canvas.Left="160" Canvas.Top="19"/>
+        <Label Content="Вы запускаете this программу firs раз. Please, введите пароль" Canvas.Left="25" Canvas.Top="50"/>
+        <Label Content="Для работы с файлами. В Н И М А Н И Е: он должен быть" Canvas.Left="35" Canvas.Top="81"/>
+        <Label Content="отличным от пароля авторизации пользователя. Спасибо!" Canvas.Left="35" Canvas.Top="112"/>
+    </Canvas>
+</Window>
